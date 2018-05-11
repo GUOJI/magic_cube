@@ -1,0 +1,13 @@
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\bin\Release\magic-cube.exe
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\bin\Release\magic-cube.pdb
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\magic-cube.csprojResolveAssemblyReference.cache
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\MainWindow.baml
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\MainWindow.g.cs
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\App.g.cs
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\magic-cube_MarkupCompile.cache
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\magic-cube.g.resources
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\magic_cube.Properties.Resources.resources
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\magic-cube.csproj.GenerateResource.cache
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\magic-cube.csproj.CoreCompileInputs.cache
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\magic-cube.exe
+D:\Users\hacker\Downloads\魔方的奥义\magic-cube-master\magic-cube\obj\x86\Release\magic-cube.pdb

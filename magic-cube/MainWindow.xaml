@@ -1,0 +1,36 @@
+﻿<Window x:Class="magic_cube.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="魔方の奥义" Height="350" Width="525" Loaded="Window_Loaded" MouseMove="Window_MouseMove" MouseRightButtonDown="Window_MouseRightButtonDown" MouseRightButtonUp="Window_MouseRightButtonUp" MouseLeftButtonDown="Window_MouseLeftButtonDown" MouseLeftButtonUp="Window_MouseLeftButtonUp" WindowStartupLocation="CenterScreen" ContentRendered="Window_ContentRendered" KeyUp="Window_KeyUp">
+    <Grid>
+        <Menu IsMainMenu="True">
+            <MenuItem Header="_工具">
+                <MenuItem Header="Animations" IsCheckable="True" IsChecked="True" Name="enableAnimations" Checked="enableAnimations_Checked" Unchecked="enableAnimations_Unchecked" />
+                <Separator />
+                <MenuItem Header="保存" Name="saveMenu" Click="saveMenu_Click" />
+                <MenuItem Header="加载" Name="loadMenu" Click="loadMenu_Click" />
+            </MenuItem>
+            <MenuItem Header="_新游戏" Click="newGame_Click" Name="newGame">
+                
+            </MenuItem>
+            <MenuItem Header="位置初始化" Name="nor" Click="Nor_Click" IsEnabled="True" />
+            <MenuItem Header="破解" Name="solveMenu" Click="jack_Click" IsEnabled="False" />
+
+
+        </Menu>
+        <TextBox x:Name="textbox1" TextWrapping="Wrap" Text="" Margin="10,28,10.4,267.8"/>
+        <Button Content="关于" Click="about_Click" Margin="435,266,25.4,24.8"/>
+        <Viewport3D Name="mainViewport" ClipToBounds="True">
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <Model3DGroup>
+                        <AmbientLight Color="#FF4E4E4E" />
+                        <PointLight Position="0,0,-7" />
+                        <SpotLight Color="White" Position="7,-7,7" ConstantAttenuation="0.5" Direction="0,1,0" OuterConeAngle="140" />
+                        <SpotLight Position="7,7,7" Direction="0,0,0" OuterConeAngle="190" ConstantAttenuation="0.2" />
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+        </Viewport3D>
+    </Grid>
+</Window>
